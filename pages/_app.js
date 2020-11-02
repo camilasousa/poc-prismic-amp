@@ -10,11 +10,11 @@ export default class App extends NextApp {
   render() {
     const { Component, pageProps } = this.props
     return (
-      <ThemeProvider theme={theme}>
-        <BaseStyles>
+      // <ThemeProvider theme={theme}>
+        // <BaseStyles>
           <Component {...pageProps} />
-        </BaseStyles>
-      </ThemeProvider>
+        // </BaseStyles>
+      // </ThemeProvider>
     )
   }
 }

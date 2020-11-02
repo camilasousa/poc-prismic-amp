@@ -16,7 +16,7 @@ export default class extends Document {
       <Html>
         <Head />
         <body>
-          <InitializeColorMode />
+          {/* <InitializeColorMode /> */}
           <Main />
           <NextScript />
         </body>

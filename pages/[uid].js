@@ -20,4 +20,6 @@ export const getStaticPaths = useGetStaticPaths({
   formatPath: (params) => ({ params: { uid: params.uid }})
 })
 
+export const config = { amp: true }
+
 export default Page
